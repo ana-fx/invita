@@ -421,52 +421,166 @@
                 Our Moments
             </h2>
 
-            <!-- Gallery Grid - Creative Layout -->
-            <div class="grid grid-cols-4 gap-2 md:gap-3 mt-12 md:mt-16" style="grid-template-rows: repeat(4, minmax(0, 1fr));">
-                <!-- Photo 1 - Top Left (Medium) -->
-                <div class="col-span-2 row-span-2 overflow-hidden group gallery-item">
+            <!-- Gallery Grid - Tailwind Only -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mt-12 md:mt-16" id="galleryGrid">
+                <!-- Photo 1 -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="0">
                     <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&h=800&fit=crop"
                          alt="Wedding Moment 1"
-                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0">
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
-                <!-- Photo 2 - Top Right (Small) -->
-                <div class="col-span-2 row-span-1 overflow-hidden group gallery-item">
+                <!-- Photo 2 -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="1">
                     <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&h=800&fit=crop"
                          alt="Wedding Moment 2"
-                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0">
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
-                <!-- Photo 3 - Middle Right Top (Small) -->
-                <div class="col-span-1 row-span-1 overflow-hidden group gallery-item">
+                <!-- Photo 3 -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="2">
                     <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=800&fit=crop"
                          alt="Wedding Moment 3"
-                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0">
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
-                <!-- Photo 4 - Middle Right Bottom (Small) -->
-                <div class="col-span-1 row-span-1 overflow-hidden group gallery-item">
+                <!-- Photo 4 -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="3">
                     <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&h=800&fit=crop"
                          alt="Wedding Moment 4"
-                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0">
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
-                <!-- Photo 5 - Bottom Left (Small) -->
-                <div class="col-span-1 row-span-2 overflow-hidden group gallery-item">
+                <!-- Photo 5 -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="4">
                     <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=800&fit=crop"
                          alt="Wedding Moment 5"
-                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0">
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
-                <!-- Photo 6 - Bottom Right (Large) -->
-                <div class="col-span-3 row-span-2 overflow-hidden group gallery-item">
+                <!-- Photo 6 -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="5">
                     <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=800&fit=crop"
                          alt="Wedding Moment 6"
-                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0">
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
+
+                <!-- Photo 7 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="6">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 7"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+
+                <!-- Photo 8 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="7">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 8"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+
+                <!-- Photo 9 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="8">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 9"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+
+                <!-- Photo 10 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="9">
+                    <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 10"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+
+                <!-- Photo 11 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="10">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 11"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+
+                <!-- Photo 12 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="11">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 12"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+
+                <!-- Photo 13 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="12">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 13"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+
+                <!-- Photo 14 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="13">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 14"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+
+                <!-- Photo 15 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="14">
+                    <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 15"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+
+                <!-- Photo 16 - Hidden initially -->
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image hidden-gallery-item hidden" data-index="15">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&h=800&fit=crop"
+                         alt="Wedding Moment 16"
+                         class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="flex justify-center mt-6 md:mt-8">
+                <button id="loadMoreBtn" class="border-2 border-gray-300 px-8 py-3 bg-transparent text-gray-300 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-300 hover:text-gray-800">
+                    LOAD MORE
+                </button>
             </div>
         </div>
     </section>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-gray-900 bg-opacity-95 p-4 md:p-8">
+        <div class="relative max-w-5xl w-full">
+            <!-- Close Button -->
+            <button id="closeModal" class="absolute -top-12 md:-top-16 right-0 md:right-4 text-white hover:text-gray-300 transition-all duration-300 group">
+                <div class="flex items-center gap-2">
+                    <span class="text-xs tracking-widest font-medium hidden md:block">CLOSE</span>
+                    <svg class="w-6 h-6 md:w-8 md:h-8 transition-transform group-hover:rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </div>
+            </button>
+
+            <!-- Modal Image Container -->
+            <div class="relative bg-white rounded-sm overflow-hidden shadow-2xl">
+                <img id="modalImage" src="" alt="Gallery Image" class="w-full h-auto object-contain">
+            </div>
+
+            <!-- Image Counter -->
+            <div class="absolute -bottom-12 left-1/2 -translate-x-1/2 text-center">
+                <p id="imageCounter" class="text-xs tracking-widest text-white font-medium"></p>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button id="prevBtn" class="absolute left-0 md:left-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-300 transition-all duration-300 bg-gray-900 bg-opacity-70 border-2 border-white border-opacity-30 rounded-sm p-3 md:p-4 hover:bg-opacity-90 hover:border-opacity-50">
+                <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 19l-7-7 7-7"/>
+                </svg>
+            </button>
+            <button id="nextBtn" class="absolute right-0 md:right-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-300 transition-all duration-300 bg-gray-900 bg-opacity-70 border-2 border-white border-opacity-30 rounded-sm p-3 md:p-4 hover:bg-opacity-90 hover:border-opacity-50">
+                <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7"/>
+                </svg>
+            </button>
+        </div>
+    </div>
 
     <script>
         // Button click handlers
@@ -522,6 +636,112 @@
         // Update countdown every second
         updateCountdown();
         setInterval(updateCountdown, 1000);
+
+        // Load More Gallery
+        const loadMoreBtn = document.getElementById('loadMoreBtn');
+        const hiddenItems = document.querySelectorAll('.hidden-gallery-item');
+        const galleryGrid = document.getElementById('galleryGrid');
+
+        if (loadMoreBtn && hiddenItems.length > 0) {
+            loadMoreBtn.addEventListener('click', function() {
+                // Grid will auto-adjust with grid-auto-rows
+
+                hiddenItems.forEach((item, index) => {
+                    setTimeout(() => {
+                        item.classList.remove('hidden');
+                        item.style.opacity = '0';
+                        item.style.transform = 'translateY(20px)';
+
+                        // Animate in
+                        setTimeout(() => {
+                            item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                            item.style.opacity = '1';
+                            item.style.transform = 'translateY(0)';
+                        }, 50);
+                    }, index * 100);
+                });
+
+                // Hide button after loading
+                setTimeout(() => {
+                    loadMoreBtn.style.display = 'none';
+                }, hiddenItems.length * 100 + 600);
+            });
+        }
+
+        // Gallery Modal
+        const galleryModal = document.getElementById('galleryModal');
+        const modalImage = document.getElementById('modalImage');
+        const closeModal = document.getElementById('closeModal');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const galleryImages = document.querySelectorAll('.gallery-image img');
+        let currentImageIndex = 0;
+
+        // Open modal on image click
+        galleryImages.forEach((img, index) => {
+            img.closest('.gallery-image').addEventListener('click', function() {
+                currentImageIndex = parseInt(this.getAttribute('data-index'));
+                updateModalImage();
+                galleryModal.classList.remove('hidden');
+                galleryModal.classList.add('flex');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        // Close modal
+        function closeGalleryModal() {
+            galleryModal.classList.add('hidden');
+            galleryModal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        closeModal.addEventListener('click', closeGalleryModal);
+        galleryModal.addEventListener('click', function(e) {
+            if (e.target === galleryModal) {
+                closeGalleryModal();
+            }
+        });
+
+        // Update modal image
+        const imageCounter = document.getElementById('imageCounter');
+        function updateModalImage() {
+            const img = galleryImages[currentImageIndex];
+            if (img) {
+                modalImage.src = img.src.replace('w=600&h=800&fit=crop', 'w=1200&h=1600&fit=crop');
+                modalImage.alt = img.alt;
+                // Update counter
+                if (imageCounter) {
+                    imageCounter.textContent = `${currentImageIndex + 1} / ${galleryImages.length}`;
+                }
+            }
+        }
+
+        // Navigation
+        function showPrevImage() {
+            currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+            updateModalImage();
+        }
+
+        function showNextImage() {
+            currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+            updateModalImage();
+        }
+
+        prevBtn.addEventListener('click', showPrevImage);
+        nextBtn.addEventListener('click', showNextImage);
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (!galleryModal.classList.contains('hidden')) {
+                if (e.key === 'Escape') {
+                    closeGalleryModal();
+                } else if (e.key === 'ArrowLeft') {
+                    showPrevImage();
+                } else if (e.key === 'ArrowRight') {
+                    showNextImage();
+                }
+            }
+        });
     </script>
 </body>
 </html>
