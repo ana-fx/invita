@@ -23,8 +23,8 @@
                 <!-- Left Content -->
                 <div class="lg:col-span-5 px-5 pt-8 pb-4 lg:pt-12 lg:pb-4 hero-left">
                     <!-- Wedding Icon -->
-                    <div class="mb-6">
-                        <svg class="w-16 h-16" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="mb-4 md:mb-6">
+                        <svg class="w-12 h-12 md:w-16 md:h-16" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="20" cy="25" r="8" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
                             <circle cx="40" cy="25" r="8" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
                             <path d="M20 33 C20 45, 40 45, 40 33" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
@@ -44,7 +44,7 @@
                     <h5 class="text-lg font-bold mb-6 text-gray-900">Guests Name</h5>
 
                     <!-- Open Invitation Button -->
-                    <button class="border-2 border-gray-900 px-12 py-3 bg-transparent text-gray-900 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-900 hover:text-white">
+                    <button class="border-2 border-gray-900 px-6 md:px-10 lg:px-12 py-2.5 md:py-3 bg-transparent text-gray-900 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-900 hover:text-white">
                         OPEN INVITATION
                     </button>
                 </div>
@@ -72,10 +72,10 @@
 
                         <!-- Save The Date - Overlapping with image (half on image) -->
                         <div class="absolute top-0 right-0 text-center lg:text-right lg:pr-5 pt-0 lg:pt-0 z-10" style="transform: translateX(50%);">
-                            <div class="text-7xl lg:text-8xl font-light text-gray-300 leading-none playfair">03</div>
-                            <div class="text-7xl lg:text-8xl font-light text-gray-300 leading-none playfair">14</div>
-                            <div class="text-7xl lg:text-8xl font-light text-gray-300 leading-none playfair">25</div>
-                            <p class="text-base tracking-widest text-gray-400 font-light mt-4 leading-relaxed">
+                            <div class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-gray-300 leading-none playfair">03</div>
+                            <div class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-gray-300 leading-none playfair">14</div>
+                            <div class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-gray-300 leading-none playfair">25</div>
+                            <p class="text-xs sm:text-sm md:text-base tracking-widest text-gray-400 font-light mt-2 md:mt-4 leading-relaxed">
                                 SAVE<br>THE<br>DATE
                             </p>
                         </div>
@@ -237,41 +237,41 @@
             <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-gray-900 playfair mb-12 text-animate">Wedding Day</h2>
 
             <!-- Countdown Timer -->
-            <div class="flex justify-center gap-4 md:gap-6 mb-12">
-                <div class="bg-gray-100 rounded-lg px-6 py-8 text-center min-w-[120px] md:min-w-[140px] countdown-item">
-                    <div class="text-3xl md:text-4xl font-bold text-gray-800 mb-2" id="days">215</div>
-                    <div class="text-xs md:text-sm text-gray-600 tracking-wider">Days</div>
+            <div class="flex justify-center gap-2 sm:gap-4 md:gap-6 mb-8 md:mb-12 flex-wrap">
+                <div class="bg-gray-100 rounded-lg px-4 sm:px-5 md:px-6 py-6 sm:py-7 md:py-8 text-center min-w-[80px] sm:min-w-[100px] md:min-w-[120px] lg:min-w-[140px] countdown-item">
+                    <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-1 sm:mb-2" id="days">215</div>
+                    <div class="text-[10px] sm:text-xs md:text-sm text-gray-600 tracking-wider">Days</div>
                 </div>
-                <div class="bg-gray-100 rounded-lg px-6 py-8 text-center min-w-[120px] md:min-w-[140px] countdown-item">
-                    <div class="text-3xl md:text-4xl font-bold text-gray-800 mb-2" id="hours">19</div>
-                    <div class="text-xs md:text-sm text-gray-600 tracking-wider">Hours</div>
+                <div class="bg-gray-100 rounded-lg px-4 sm:px-5 md:px-6 py-6 sm:py-7 md:py-8 text-center min-w-[80px] sm:min-w-[100px] md:min-w-[120px] lg:min-w-[140px] countdown-item">
+                    <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-1 sm:mb-2" id="hours">19</div>
+                    <div class="text-[10px] sm:text-xs md:text-sm text-gray-600 tracking-wider">Hours</div>
                 </div>
-                <div class="bg-gray-100 rounded-lg px-6 py-8 text-center min-w-[120px] md:min-w-[140px] countdown-item">
-                    <div class="text-3xl md:text-4xl font-bold text-gray-800 mb-2" id="minutes">11</div>
-                    <div class="text-xs md:text-sm text-gray-600 tracking-wider">Minutes</div>
+                <div class="bg-gray-100 rounded-lg px-4 sm:px-5 md:px-6 py-6 sm:py-7 md:py-8 text-center min-w-[80px] sm:min-w-[100px] md:min-w-[120px] lg:min-w-[140px] countdown-item">
+                    <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-1 sm:mb-2" id="minutes">11</div>
+                    <div class="text-[10px] sm:text-xs md:text-sm text-gray-600 tracking-wider">Minutes</div>
                 </div>
-                <div class="bg-gray-100 rounded-lg px-6 py-8 text-center min-w-[120px] md:min-w-[140px] countdown-item">
-                    <div class="text-3xl md:text-4xl font-bold text-gray-800 mb-2" id="seconds">05</div>
-                    <div class="text-xs md:text-sm text-gray-600 tracking-wider">Seconds</div>
+                <div class="bg-gray-100 rounded-lg px-4 sm:px-5 md:px-6 py-6 sm:py-7 md:py-8 text-center min-w-[80px] sm:min-w-[100px] md:min-w-[120px] lg:min-w-[140px] countdown-item">
+                    <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-1 sm:mb-2" id="seconds">05</div>
+                    <div class="text-[10px] sm:text-xs md:text-sm text-gray-600 tracking-wider">Seconds</div>
                 </div>
             </div>
 
             <!-- Ceremony Section -->
             <div class="mb-16 event-section">
                 <div class="flex justify-center items-center pt-12 mb-12">
-                    <svg class="w-full max-w-4xl opacity-40" viewBox="0 0 1200 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-full max-w-4xl opacity-40" viewBox="0 0 1200 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: var(--color-secondary);">
                         <!-- Left line with dot -->
-                        <circle cx="0" cy="10" r="1.5" fill="#6b7280"/>
-                        <line x1="0" y1="10" x2="500" y2="10" stroke="#9ca3af" stroke-width="0.5"/>
+                        <circle cx="0" cy="10" r="1.5" fill="var(--color-secondary)"/>
+                        <line x1="0" y1="10" x2="500" y2="10" stroke="var(--color-accent)" stroke-width="0.5"/>
 
                         <!-- Center geometric pattern -->
-                        <line x1="520" y1="5" x2="520" y2="15" stroke="#6b7280" stroke-width="0.5"/>
-                        <line x1="520" y1="10" x2="680" y2="10" stroke="#9ca3af" stroke-width="0.5"/>
-                        <line x1="680" y1="5" x2="680" y2="15" stroke="#6b7280" stroke-width="0.5"/>
+                        <line x1="520" y1="5" x2="520" y2="15" stroke="var(--color-secondary)" stroke-width="0.5"/>
+                        <line x1="520" y1="10" x2="680" y2="10" stroke="var(--color-accent)" stroke-width="0.5"/>
+                        <line x1="680" y1="5" x2="680" y2="15" stroke="var(--color-secondary)" stroke-width="0.5"/>
 
                         <!-- Right line with dot -->
-                        <line x1="700" y1="10" x2="1200" y2="10" stroke="#9ca3af" stroke-width="0.5"/>
-                        <circle cx="1200" cy="10" r="1.5" fill="#6b7280"/>
+                        <line x1="700" y1="10" x2="1200" y2="10" stroke="var(--color-accent)" stroke-width="0.5"/>
+                        <circle cx="1200" cy="10" r="1.5" fill="var(--color-secondary)"/>
                     </svg>
                 </div>
                 <h3 class="text-3xl md:text-4xl font-bold text-center text-gray-900 playfair mb-12 text-animate">Ceremony</h3>
@@ -298,8 +298,8 @@
                 </div>
 
                 <!-- Buttons -->
-                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
-                    <button class="border-2 border-gray-900 px-8 py-3 bg-transparent text-gray-900 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-900 hover:text-white flex items-center gap-2">
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mt-6 md:mt-8">
+                    <button class="border-2 border-gray-900 px-6 sm:px-8 py-2.5 sm:py-3 bg-transparent text-gray-900 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-900 hover:text-white flex items-center gap-2 w-full sm:w-auto justify-center">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -318,19 +318,19 @@
             <!-- Reception Section -->
             <div class="event-section">
                 <div class="flex justify-center items-center pt-12 mb-12">
-                    <svg class="w-full max-w-4xl opacity-40" viewBox="0 0 1200 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-full max-w-4xl opacity-40" viewBox="0 0 1200 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: var(--color-secondary);">
                         <!-- Left line with dot -->
-                        <circle cx="0" cy="10" r="1.5" fill="#6b7280"/>
-                        <line x1="0" y1="10" x2="500" y2="10" stroke="#9ca3af" stroke-width="0.5"/>
+                        <circle cx="0" cy="10" r="1.5" fill="var(--color-secondary)"/>
+                        <line x1="0" y1="10" x2="500" y2="10" stroke="var(--color-accent)" stroke-width="0.5"/>
 
                         <!-- Center geometric pattern -->
-                        <line x1="520" y1="5" x2="520" y2="15" stroke="#6b7280" stroke-width="0.5"/>
-                        <line x1="520" y1="10" x2="680" y2="10" stroke="#9ca3af" stroke-width="0.5"/>
-                        <line x1="680" y1="5" x2="680" y2="15" stroke="#6b7280" stroke-width="0.5"/>
+                        <line x1="520" y1="5" x2="520" y2="15" stroke="var(--color-secondary)" stroke-width="0.5"/>
+                        <line x1="520" y1="10" x2="680" y2="10" stroke="var(--color-accent)" stroke-width="0.5"/>
+                        <line x1="680" y1="5" x2="680" y2="15" stroke="var(--color-secondary)" stroke-width="0.5"/>
 
                         <!-- Right line with dot -->
-                        <line x1="700" y1="10" x2="1200" y2="10" stroke="#9ca3af" stroke-width="0.5"/>
-                        <circle cx="1200" cy="10" r="1.5" fill="#6b7280"/>
+                        <line x1="700" y1="10" x2="1200" y2="10" stroke="var(--color-accent)" stroke-width="0.5"/>
+                        <circle cx="1200" cy="10" r="1.5" fill="var(--color-secondary)"/>
                     </svg>
                 </div>
                 <h3 class="text-3xl md:text-4xl font-bold text-center text-gray-900 playfair mb-12 text-animate">Reception</h3>
@@ -357,8 +357,8 @@
                 </div>
 
                 <!-- Buttons -->
-                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
-                    <button class="border-2 border-gray-900 px-8 py-3 bg-transparent text-gray-900 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-900 hover:text-white flex items-center gap-2">
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mt-6 md:mt-8">
+                    <button class="border-2 border-gray-900 px-6 sm:px-8 py-2.5 sm:py-3 bg-transparent text-gray-900 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-900 hover:text-white flex items-center gap-2 w-full sm:w-auto justify-center">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -376,6 +376,77 @@
         </div>
     </section>
 
+    <!-- Our Love Story Section -->
+    <section class="bg-white py-16 md:py-24 love-story-section min-h-screen flex items-center">
+        <div class="container mx-auto px-4 sm:px-6 md:px-8 max-w-6xl">
+            <!-- Title -->
+            <div class="flex items-center justify-center gap-4 md:gap-8 mb-12 md:mb-16">
+                <div class="h-px bg-gray-300 w-12 md:w-20"></div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-gray-900 playfair text-animate">
+                    Our Love Story
+                </h2>
+                <div class="h-px bg-gray-300 w-12 md:w-20"></div>
+            </div>
+
+            <!-- Love Story Timeline -->
+            <div class="space-y-16 md:space-y-24">
+                <!-- Story 1: Text Left, Image Right -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center story-item">
+                    <!-- Text Content -->
+                    <div class="order-2 md:order-1 text-animate">
+                        <p class="text-xs md:text-sm tracking-widest text-gray-600 font-normal mb-2">06 JAN 2023</p>
+                        <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 playfair mb-4">Our First Meet</h3>
+                        <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                            In enim dolor, sagittis vel suscipit eu, congue at odio. Aenean pulvinar nunc magna, et finibus lacus dictum non. Mauris consectetur.
+                        </p>
+                    </div>
+                    <!-- Image -->
+                    <div class="order-1 md:order-2 photo-animate">
+                        <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=600&fit=crop"
+                             alt="Our First Meet"
+                             class="w-full h-[400px] md:h-[500px] object-cover grayscale">
+                    </div>
+                </div>
+
+                <!-- Story 2: Image Left, Text Right -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center story-item">
+                    <!-- Image -->
+                    <div class="order-1 photo-animate">
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&h=600&fit=crop"
+                             alt="Memorable Moment"
+                             class="w-full h-[400px] md:h-[500px] object-cover grayscale">
+                    </div>
+                    <!-- Text Content -->
+                    <div class="order-2 text-animate">
+                        <p class="text-xs md:text-sm tracking-widest text-gray-600 font-normal mb-2">21 MAY 2023</p>
+                        <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 playfair mb-4">Memorable Moment</h3>
+                        <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                            In enim dolor, sagittis vel suscipit eu, congue at odio. Aenean pulvinar nunc magna, et finibus lacus dictum non. Mauris consectetur.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Story 3: Text Left, Image Right -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center story-item">
+                    <!-- Text Content -->
+                    <div class="order-2 md:order-1 text-animate">
+                        <p class="text-xs md:text-sm tracking-widest text-gray-600 font-normal mb-2">12 DEC 2024</p>
+                        <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 playfair mb-4">Engagement Day</h3>
+                        <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                            In enim dolor, sagittis vel suscipit eu, congue at odio. Aenean pulvinar nunc magna, et finibus lacus dictum non. Mauris consectetur.
+                        </p>
+                    </div>
+                    <!-- Image -->
+                    <div class="order-1 md:order-2 photo-animate">
+                        <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&h=600&fit=crop"
+                             alt="Engagement Day"
+                             class="w-full h-[400px] md:h-[500px] object-cover grayscale">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Live Streaming & Video Section -->
     <section class="bg-white video-section min-h-screen flex flex-col">
         <!-- Top Section - Live Streaming -->
@@ -384,7 +455,7 @@
                 <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-gray-900 playfair mb-4 text-animate">Live Streaming</h2>
                 <p class="text-center text-gray-600 mb-8 text-sm md:text-base">We will broadcast the wedding ceremony virtually</p>
                 <div class="flex justify-center">
-                    <button class="border-2 border-gray-900 px-8 py-3 bg-transparent text-gray-900 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-900 hover:text-white flex items-center gap-2">
+                    <button class="border-2 border-gray-900 px-6 sm:px-8 py-2.5 sm:py-3 bg-transparent text-gray-900 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-900 hover:text-white flex items-center gap-2 w-full sm:w-auto justify-center">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                         </svg>
@@ -395,10 +466,10 @@
         </div>
 
         <!-- Bottom Section - Video Player (Overlapping) -->
-        <div class="flex-1 bg-gray-800 pt-0">
+        <div class="flex-1 bg-[#404040] pt-0">
             <div class="container mx-auto px-4 sm:px-6 md:px-8 max-w-6xl -mt-16 md:-mt-24 relative z-10">
                 <!-- YouTube Video Embed -->
-                <div class="relative w-full bg-gray-900 rounded-lg overflow-hidden shadow-2xl" style="padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                <div class="relative w-full bg-[#404040] rounded-lg overflow-hidden shadow-2xl" style="padding-bottom: 56.25%; height: 0; overflow: hidden;">
                     <iframe
                         class="absolute top-0 left-0 w-full h-full"
                         src="https://www.youtube.com/embed/dQw4w9WgXcQ"
@@ -413,7 +484,7 @@
     </section>
 
     <!-- Gallery Section -->
-    <section class="bg-gray-800 py-16 md:py-24 gallery-section min-h-screen flex items-center">
+    <section class="bg-[#404040] py-16 md:py-24 gallery-section min-h-screen flex items-center">
         <div class="container mx-auto px-4 sm:px-6 md:px-8 max-w-6xl">
             <!-- Title -->
             <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white playfair mb-4 text-animate">
@@ -424,42 +495,42 @@
             <!-- Gallery Grid - Tailwind Only -->
             <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mt-12 md:mt-16" id="galleryGrid">
                 <!-- Photo 1 -->
-                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="0">
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image opacity-0" data-index="0">
                     <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&h=800&fit=crop"
                          alt="Wedding Moment 1"
                          class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
                 <!-- Photo 2 -->
-                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="1">
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image opacity-0" data-index="1">
                     <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&h=800&fit=crop"
                          alt="Wedding Moment 2"
                          class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
                 <!-- Photo 3 -->
-                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="2">
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image opacity-0" data-index="2">
                     <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=800&fit=crop"
                          alt="Wedding Moment 3"
                          class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
                 <!-- Photo 4 -->
-                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="3">
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image opacity-0" data-index="3">
                     <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&h=800&fit=crop"
                          alt="Wedding Moment 4"
                          class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
                 <!-- Photo 5 -->
-                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="4">
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image opacity-0" data-index="4">
                     <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=800&fit=crop"
                          alt="Wedding Moment 5"
                          class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
                 </div>
 
                 <!-- Photo 6 -->
-                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image" data-index="5">
+                <div class="aspect-square overflow-hidden group cursor-pointer gallery-image opacity-0" data-index="5">
                     <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=800&fit=crop"
                          alt="Wedding Moment 6"
                          class="w-full h-full object-cover grayscale transition-all duration-700 hover:grayscale-0 hover:scale-110">
@@ -538,9 +609,71 @@
 
             <!-- Load More Button -->
             <div class="flex justify-center mt-6 md:mt-8">
-                <button id="loadMoreBtn" class="border-2 border-gray-300 px-8 py-3 bg-transparent text-gray-300 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-300 hover:text-gray-800">
+                <button id="loadMoreBtn" class="border-2 border-gray-300 px-6 sm:px-8 py-2.5 sm:py-3 bg-transparent text-gray-300 tracking-widest text-xs font-medium transition-all duration-300 hover:bg-gray-300 hover:text-gray-800 w-full sm:w-auto">
                     LOAD MORE
                 </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="bg-[#404040] quote-section flex flex-col">
+        <!-- Top Section - Dark Background -->
+        <div class="bg-[#404040] py-16 md:py-24 pb-8 md:pb-12">
+            <div class="container mx-auto px-4 sm:px-6 md:px-8 max-w-6xl">
+                <!-- Empty space for overlap effect -->
+            </div>
+        </div>
+
+        <!-- Bottom Section - White Background with Quote Card (Overlapping) -->
+        <div class="bg-white pt-0 pb-12 md:pb-16 lg:pb-20">
+            <div class="container mx-auto px-4 sm:px-6 md:px-8 max-w-4xl -mt-16 md:-mt-24 relative z-10">
+                <!-- Quote Card -->
+                <div class="bg-white rounded-sm shadow-2xl p-6 md:p-10 lg:p-14 text-center">
+                    <!-- Quote Text -->
+                    <blockquote class="mb-5 md:mb-7">
+                        <p class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-normal text-gray-900 playfair leading-relaxed italic">
+                            "A happy marriage is a long conversation<br class="hidden md:block">
+                            which always seems too short"
+                        </p>
+                    </blockquote>
+
+                    <!-- Attribution -->
+                    <p class="text-xs md:text-sm tracking-widest text-gray-600 font-normal uppercase">
+                        ANDRE MAUROIS
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="bg-white pt-8 md:pt-12 pb-16 md:pb-24 map-section min-h-screen flex items-center">
+        <div class="container mx-auto px-4 sm:px-6 md:px-8 max-w-6xl">
+            <!-- Title -->
+            <h2 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center text-gray-900 playfair mb-8 md:mb-12 text-animate">
+                Location
+            </h2>
+
+            <!-- Map Container -->
+            <div class="relative w-full bg-gray-200 rounded-sm overflow-hidden shadow-2xl" style="padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.5!2d115.1667!3d-8.7893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwNDclMjEuNCJTIDExNcKwMTAnMDAuMSJF!5e0!3m2!1sen!2sid!4v1234567890123!5m2!1sen!2sid"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    class="absolute top-0 left-0 w-full h-full">
+                </iframe>
+            </div>
+
+            <!-- Location Info -->
+            <div class="mt-8 md:mt-12 text-center">
+                <h3 class="text-2xl md:text-3xl font-bold text-gray-900 playfair mb-4">The Great Hall</h3>
+                <p class="text-sm md:text-base text-gray-600 mb-2">Your Happiest Day Street, Number 1234</p>
+                <p class="text-sm md:text-base text-gray-600">Bali, Indonesia</p>
             </div>
         </div>
     </section>
@@ -589,7 +722,7 @@
             const openInvitationBtn = document.querySelector('.hero-left button');
             if (openInvitationBtn) {
                 openInvitationBtn.addEventListener('click', function() {
-                    alert('Opening invitation...');
+            alert('Opening invitation...');
                 });
             }
 
